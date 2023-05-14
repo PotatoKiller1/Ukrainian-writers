@@ -1,0 +1,172 @@
+/* style.css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+/* Заголовок  */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Навігація */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #d65454;
+}
+
+/* Основний блок */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Заголовки секцій */
+section h2 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+/* Зображення */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #d65454;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-bottom: 50px;
+}
+
+/* Заголовки */
+.tab button {
+  background-color: #ccc;
+  color: #333;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Заголовки вкладок при наведенні */
+.tab button:hover {
+  background-color: #d65454;
+  color: #fff;
+}
+
+.tab button.active {
+  background-color: #d65454;
+  color: #fff;
+  }
+  
+    /* вміст */
+  .tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  }
+  
+
+  .tabcontent.active {
+  display: block;
+  }
+  
+ 
+  .singer {
+  margin-bottom: 50px;
+  }
+  
+  .singer img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .singer h3 {
+  margin-top: 20px;
+  text-align: center;
+  }
+  
+  /* для каждой вкладки */
+  #tab1 {
+  background-color: #fff;
+  }
+  
+  #tab2 {
+  background-color: #f1f1f1;
+  }
+  
+  #tab3 {
+  background-color: #fff;
+  }
+  
+  #tab4 {
+  background-color: #f1f1f1;
+  }
+  
+  #tab5 {
+  background-color: #fff;
+  }
